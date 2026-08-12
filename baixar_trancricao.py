@@ -87,7 +87,7 @@ def limpar_nome_arquivo(nome: str) -> str:
 
     Caracteres removidos:
 
-        < > : " / \ | ? *
+        < > : " / \\ | ? *
 
     Também limita o nome para evitar caminhos muito longos.
     """
