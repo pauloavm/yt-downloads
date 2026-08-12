@@ -305,4 +305,4 @@ IDIOMAS = ("pt", "pt-BR", "en")
 
 ## 📄 Licença
 
-Este projeto é destinado a fins educacionais e deve ser utilizado de forma responsável, respeitando os direitos autorais e os termos de uso das plataformas acessadas.
+Este projeto é destinado a fins educacionais e deve ser utilizado de forma responsável, respeitando os direitos autorais e os termos de uso das plataformas acessadas .
