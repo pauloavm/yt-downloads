@@ -125,7 +125,10 @@ try:
         )
 
         print("\nDownload concluído com sucesso!")
-        print(f"Arquivo salvo em: {Path(caminho_arquivo).resolve()}")
+        if caminho_arquivo is None:
+            print("Arquivo salvo em: caminho desconhecido")
+        else:
+            print(f"Arquivo salvo em: {Path(caminho_arquivo).resolve()}")
 
 
 # Trata o cancelamento manual usando Ctrl+C separadamente.
